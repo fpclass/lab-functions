@@ -1,13 +1,13 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lab 1: Getting started                                                     --
+-- Lab: Functions                                                             --
 --------------------------------------------------------------------------------
 
 import Test.Hspec
 import Test.Hspec.QuickCheck
 import Test.QuickCheck
 
-import qualified Lab1 as L
+import qualified Lab as L
 
 --------------------------------------------------------------------------------
 
