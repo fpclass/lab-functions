@@ -1,12 +1,9 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lab 1: Getting started                                                     --
---------------------------------------------------------------------------------
--- Topics: Definitions, basic arithmetic, strings, booleans, functions,
---         using built-in functions, and basic pattern matching.
+-- Lab: Functions                                                             --
 --------------------------------------------------------------------------------
 
-module Lab1 where
+module Lab where
 
 --------------------------------------------------------------------------------
 
@@ -30,7 +27,8 @@ name = "Michael"
 triple = \x -> x * 2
 
 -- 3. Replace `undefined` in the definition of `tripleV2` below so that
--- it behaves like `triple` above.
+-- it behaves like `triple` above, but uses the syntactic sugar for
+-- lambda terms instead.
 
 tripleV2 x = undefined
 
